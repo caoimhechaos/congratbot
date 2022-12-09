@@ -3,6 +3,7 @@ test.conf
 *.pb.h
 *.o
 congratbot
+query_profile
 
 # automake + build system
 aclocal.m4
