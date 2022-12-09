@@ -3,3 +3,20 @@ test.conf
 *.pb.h
 *.o
 congratbot
+
+# automake + build system
+aclocal.m4
+config.h
+config.h.in
+config.log
+config.status
+configure
+configure.in
+depcomp
+install-sh
+Makefile
+Makefile.in
+missing
+stamp-h1
+autom4te.cache
+.deps
