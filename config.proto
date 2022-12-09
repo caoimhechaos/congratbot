@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package congratbot;
+
+// Variants of congratulations that can be used.
+message CongratVariants {
+  repeated string congratulation_message = 1;
+}
+
+// Required configuration settings.
+message CongratBotConfig {
+  // URL of the instance to connect to.
+  string instance_url = 1;
+
+  // Access Token to use to access the instance.
+  string access_token = 2;
+
+  // Congratulation messages.
+  CongratVariants congrat_variants = 3;
+}

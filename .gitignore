@@ -1,0 +1,5 @@
+test.conf
+*.pb.cc
+*.pb.h
+*.o
+congratbot
